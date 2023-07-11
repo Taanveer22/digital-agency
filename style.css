@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .nav-container{
     display: flex;
     justify-content: space-around;
@@ -32,4 +33,32 @@
     align-items: center;
 
 
+}
+
+.primary{
+    color: red;
+}
+
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+
+.description{
+    color: white;
+    padding: 10px;
+    /* tricks for center some text */
+    width: 50%;
+    margin: auto;
+}
+
+.btn{
+    padding: 12px 20px;
+    border: none;
+}
+
+.bg-primary{
+    background: red;
+    color: white;
 }
