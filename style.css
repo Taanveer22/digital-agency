@@ -1,38 +1,38 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.btn-common{
+.btn-common {
     padding: 12px 20px;
     border: none;
 }
 
-.btn-common-2{
+.btn-common-2 {
     padding: 15px 30px;
     border: none;
     border-radius: 25px;
 }
 
-.title-common{
+.title-common {
     font-size: 45px;
     font-weight: bold;
     color: white;
 }
 
-.text-red-common{
+.text-red-common {
     color: red;
 }
 
-.description-commmon{
-    color: white;
+.description-commmon {
     padding: 10px;
     font-size: 20px;
+    color: white;
 }
 
 /* header styles */
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -40,7 +40,7 @@
     padding: 10px;
 }
 
-.menus{
+.menus {
     list-style: none;
     display: flex;
     gap: 15px;
@@ -48,10 +48,10 @@
     font-style: italic;
 }
 
-.banner-container{
+.banner-container {
     height: 100vh;
     background-image: url("asset/image/background.jpg"),
-                    linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4));
+        linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@
     align-items: center;
 }
 
-.description{
+.description {
     color: white;
     padding: 10px;
     /* tricks for center some text */
@@ -70,94 +70,100 @@
 }
 
 
-.bg-primary{
+.bg-primary {
     background: red;
     color: white;
 }
 
 
 /* services section styles */
-#services{
+#services {
     background-image: url("asset/image/footer-bg.png"), linear-gradient(rgba(6, 3, 3, 0.974), rgba(4, 0, 0, 0.938));
     height: 120vh;
     color: white;
 }
 
-.services-container{
+.services-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
- .service-text{
+.service-text {
     width: 50%;
     margin: 10px;
 }
 
-.service-photo{
-    width: 50%;}
+.service-photo {
+    width: 50%;
+}
 
 
-.employee{
-    display: flex;
-    align-items: center;
-} 
-
-.profile{
+.employee {
     display: flex;
     align-items: center;
 }
 
-.person img{
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.person img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
 
 /* very important tricks for vertical line enlargement by using font-size(|) */
-.line{
+.line {
     color: red;
     font-size: 100px;
 }
 
-.skill-container{
+.skill-container {
     color: white;
 }
 
-.skill-box{
+.skill-box {
     background: white;
     padding: 40px;
     margin: 10px;
     border-radius: 5px;
 }
 
-.sb-2{
+.sb-2 {
     padding: 30px 40px;
     text-align: center;
 }
-.skill-box img{
+
+.skill-box img {
     width: 100%;
 }
 
-.skill-box p{
+.skill-box p {
     color: black;
     font-size: large;
     font-weight: 800;
 }
 
-.skill-container-top{
+.skill-container-top {
     display: flex;
     align-items: center;
 }
 
-.skill-container-bottom{
+.skill-container-bottom {
     display: flex;
     align-items: center;
 }
 
 
 /* appointement section styles */
-.appointment-container{
+#appointment {
+    margin-bottom: 100px;
+}
+
+.appointment-container {
     background-color: rgb(245, 44, 44);
     width: 75%;
     margin: 0 auto;
@@ -169,28 +175,79 @@
     justify-content: center;
 }
 
-.call-portion{
+.call-portion {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.call-icon img{
+.call-icon img {
     width: 100px;
 }
 
-.call-number{
+.call-number {
     color: white;
 }
-.call-number h1{
+
+.call-number h1 {
     font-size: 35px;
 }
 
-.message-portion{
+.message-portion {
     display: flex;
     align-items: center;
 }
-.message-description{
+
+.message-description {
     color: white;
     font-size: 16px;
+}
+
+/* blog section styles */
+#blog {
+    margin-bottom: 100px;
+}
+
+.blog-text {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blog-title {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.blog-para {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.blog-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.blog-box {
+    width: 350px;
+    border: 1px solid wheat;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgb(200, 197, 197);
+}
+
+.blog-box img {
+    width: 350px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 20px;
+}
+
+.blog-box h2 {
+    margin: 10px;
+}
+
+.blog-box p {
+    margin: 10px;
 }
