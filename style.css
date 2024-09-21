@@ -32,6 +32,10 @@
 }
 
 /* header styles */
+header {
+    margin-bottom: 100px;
+}
+
 .nav-container {
     display: flex;
     justify-content: space-around;
@@ -78,15 +82,16 @@
 
 /* services section styles */
 #services {
+    height: 100vh;
     background-image: url("asset/image/footer-bg.png"), linear-gradient(rgba(6, 3, 3, 0.974), rgba(4, 0, 0, 0.938));
-    height: 120vh;
     color: white;
+    margin-bottom: 100px;
 }
 
 .services-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .service-text {
@@ -127,18 +132,18 @@
 
 .skill-box {
     background: white;
-    padding: 40px;
+    padding: 30px;
     margin: 10px;
     border-radius: 5px;
 }
 
 .sb-2 {
-    padding: 30px 40px;
+    padding: 20px 30px;
     text-align: center;
 }
 
 .skill-box img {
-    width: 100%;
+    width: 70%;
 }
 
 .skill-box p {
