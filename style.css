@@ -79,7 +79,7 @@
 /* services section styles */
 #services{
     background-image: url("asset/image/footer-bg.png"), linear-gradient(rgba(6, 3, 3, 0.974), rgba(4, 0, 0, 0.938));
-    height: 130vh;
+    height: 120vh;
     color: white;
 }
 
@@ -117,7 +117,7 @@
 /* very important tricks for vertical line enlargement by using font-size(|) */
 .line{
     color: red;
-    font-size: 70px;
+    font-size: 100px;
 }
 
 .skill-container{
@@ -172,9 +172,25 @@
 .call-portion{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    gap: 10px;
 }
 
 .call-icon img{
-    width: 60px;
+    width: 100px;
+}
+
+.call-number{
+    color: white;
+}
+.call-number h1{
+    font-size: 35px;
+}
+
+.message-portion{
+    display: flex;
+    align-items: center;
+}
+.message-description{
+    color: white;
+    font-size: 16px;
 }
