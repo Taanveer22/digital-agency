@@ -1,9 +1,37 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+.btn-common{
+    padding: 12px 20px;
+    border: none;
+}
 
+.btn-common-2{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+}
+
+.title-common{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.text-red-common{
+    color: red;
+}
+
+.description-commmon{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* header styles */
 .nav-container{
     display: flex;
     justify-content: space-around;
@@ -31,18 +59,6 @@
     text-align: center;
     display: flex;
     align-items: center;
-
-
-}
-
-.primary{
-    color: red;
-}
-
-.title{
-    font-size: 55px;
-    font-weight: bold;
-    color: white;
 }
 
 .description{
@@ -53,12 +69,112 @@
     margin: auto;
 }
 
-.btn{
-    padding: 12px 20px;
-    border: none;
-}
 
 .bg-primary{
     background: red;
     color: white;
+}
+
+
+/* services section styles */
+#services{
+    background-image: url("asset/image/footer-bg.png"), linear-gradient(rgba(6, 3, 3, 0.974), rgba(4, 0, 0, 0.938));
+    height: 130vh;
+    color: white;
+}
+
+.services-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .service-text{
+    width: 50%;
+    margin: 10px;
+}
+
+.service-photo{
+    width: 50%;}
+
+
+.employee{
+    display: flex;
+    align-items: center;
+} 
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.person img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* very important tricks for vertical line enlargement by using font-size(|) */
+.line{
+    color: red;
+    font-size: 70px;
+}
+
+.skill-container{
+    color: white;
+}
+
+.skill-box{
+    background: white;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.sb-2{
+    padding: 30px 40px;
+    text-align: center;
+}
+.skill-box img{
+    width: 100%;
+}
+
+.skill-box p{
+    color: black;
+    font-size: large;
+    font-weight: 800;
+}
+
+.skill-container-top{
+    display: flex;
+    align-items: center;
+}
+
+.skill-container-bottom{
+    display: flex;
+    align-items: center;
+}
+
+
+/* appointement section styles */
+.appointment-container{
+    background-color: rgb(245, 44, 44);
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-portion{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.call-icon img{
+    width: 60px;
 }
