@@ -120,8 +120,8 @@ header {
     border-radius: 50%;
 }
 
-/* very important tricks for vertical line enlargement by using font-size(|) */
-.line {
+/*  important tricks for vertical line enlargement by using font-size(|) */
+.y-line {
     color: red;
     font-size: 100px;
 }
@@ -255,4 +255,35 @@ header {
 
 .blog-box p {
     margin: 10px;
+}
+
+/* footer related styles */
+
+
+.footer-container {
+    background-image: url("asset/image/footer-bg.png"), linear-gradient(rgb(6, 1, 1), rgb(6, 1, 1));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    color: rgb(234, 227, 227);
+    padding: 90px;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* important ticks for horizontal ruler/line styling using border property */
+.x-line{
+    border: 1.5px solid red;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.footer-bottom{
+    text-align: center;
 }
