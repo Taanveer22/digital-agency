@@ -83,7 +83,10 @@ header {
 /* services section styles */
 #services {
     height: 100vh;
-    background-image: url("asset/image/footer-bg.png"), linear-gradient(rgba(6, 3, 3, 0.974), rgba(4, 0, 0, 0.938));
+    background-image: url("asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: overlay;
     color: white;
     margin-bottom: 100px;
 }
@@ -261,10 +264,10 @@ header {
 
 
 .footer-container {
-    background-image: url("asset/image/footer-bg.png"), linear-gradient(rgb(6, 1, 1), rgb(6, 1, 1));
+    background-image: url("asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-blend-mode: overlay;
     height: 60vh;
     color: rgb(234, 227, 227);
     padding: 90px;
